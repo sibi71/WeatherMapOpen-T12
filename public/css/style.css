@@ -1,0 +1,61 @@
+.body{
+    background: url(https://images6.alphacoders.com/369/thumb-1920-369573.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    text-decoration:underline 3px rgb(23, 23, 23);
+}
+.input-area{
+   margin-top: 10%;
+   display: block;
+}
+.input-p span{
+    font-size: 30px;
+}
+.input-p{
+    padding: 20px;
+}
+   
+input{
+    width:20%;
+    height:40px;
+    text-align: center;
+}
+button{
+    margin: 0px 0px 5px 20px;
+    width:100px;
+    height:45px;
+   
+
+}
+.weather-data{
+justify-content: center;
+align-items: center;
+
+}
+.weather-data .wd{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(169, 168, 168);
+color: white;
+}
+.weather-data .logo-name{
+display: flex;
+justify-content:center;
+align-items: center;
+
+}  
+.weather-data .card-body{
+padding:40px;
+margin-top:1%;
+} 
+.weather-data img{
+width: 6%;
+}
